@@ -21,7 +21,7 @@ DiscordMusicBot is a Docker container that runs JMusicBot, a popular music bot f
 
 #### Using Docker CLI
 
-```sh
+
 docker run -d \
   --name discordmusicbot \
   -e DISCORD_TOKEN=your-discord-token-here \
