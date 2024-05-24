@@ -1,4 +1,4 @@
-```markdown
+
 # DiscordMusicBot
 
 DiscordMusicBot is a Docker container that runs JMusicBot, a popular music bot for Discord. This container includes all necessary dependencies and configurations to run JMusicBot seamlessly.
@@ -21,7 +21,7 @@ DiscordMusicBot is a Docker container that runs JMusicBot, a popular music bot f
 
 #### Using Docker CLI
 
-
+```
 docker run -d \
   --name discordmusicbot \
   -e DISCORD_TOKEN=your-discord-token-here \
@@ -85,6 +85,8 @@ docker-compose up -d
 - **DISCORD_TOKEN:** Your Discord bot token.
 - **OWNER_ID:** Your Discord user ID as the bot owner.
 
+  [For more settings go to JMusicBot](https://jmusicbot.com/config/)
+
 The configuration files and logs are stored in the `/config` directory inside the container. You can map this directory to a local path using Docker volumes to persist your configuration across container restarts.
 
 ## Updating to a New Version
@@ -103,7 +105,7 @@ For detailed documentation, please visit the [JMusicBot GitHub repository](https
 
 ## Contributing
 
-If you find a bug or have a feature request, please open an issue on the [GitHub repository](https://github.com/your-github-username/discordmusicbot).
+If you find a bug or have a feature request, please open an issue on the [GitHub repository](https://github.com/vmbs/discordmusicbot).
 
 ## License
 
