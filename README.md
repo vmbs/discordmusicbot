@@ -1,5 +1,3 @@
-### `README.md`
-
 ```markdown
 # DiscordMusicBot
 
@@ -87,34 +85,3 @@ If you find a bug or have a feature request, please open an issue on the [GitHub
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
-
-### Steps to Add the README to Your GitHub Repository
-
-1. **Create a New Repository:**
-   - Go to [GitHub](https://github.com/) and create a new repository named `discordmusicbot`.
-
-2. **Add the README File:**
-   - Clone the repository to your local machine:
-
-     ```sh
-     git clone https://github.com/your-github-username/discordmusicbot.git
-     cd discordmusicbot
-     ```
-
-   - Create the `README.md` file:
-
-     ```sh
-     touch README.md
-     ```
-
-   - Open the `README.md` file in a text editor and paste the content provided above.
-
-3. **Commit and Push the Changes:**
-
-   ```sh
-   git add README.md
-   git commit -m "Add initial README for DiscordMusicBot"
-   git push origin main
-   ```
-
-By following these steps, you'll have a comprehensive README for your `discordmusicbot` project on GitHub, helping users understand how to use and contribute to your project.
