@@ -45,9 +45,33 @@ services:
     environment:
       DISCORD_TOKEN: your-discord-token-here
       OWNER_ID: your-owner-id-here
+      PREFIX: "!"
+      GAME: "DEFAULT"
+      STATUS: "ONLINE"
+      SONGINSTATUS: "false"
+      ALTPREFIX: "NONE"
+      SUCCESS_EMOJI: "🎶"
+      WARNING_EMOJI: "💡"
+      ERROR_EMOJI: "🚫"
+      LOADING_EMOJI: "⌚"
+      SEARCHING_EMOJI: "🔎"
+      HELP: "help"
+      NPIMAGES: "false"
+      STAYINCHANNEL: "false"
+      MAXTIME: "0"
+      MAXYTPLAYLISTPAGES: "10"
+      SKIPRATIO: "0.55"
+      ALONETIMEUNTILSTOP: "0"
+      PLAYLISTSFOLDER: "Playlists"
+      UPDATEALERTS: "true"
+      LYRICS_PROVIDER: "A-Z Lyrics"
+      LOGLEVEL: "info"
+      EVAL: "false"
+      EVALENGINE: "Nashorn"
     volumes:
       - ./config:/config
     restart: unless-stopped
+
 ```
 
 Run Docker Compose:
