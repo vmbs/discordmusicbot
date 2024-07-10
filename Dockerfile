@@ -11,7 +11,7 @@ RUN mkdir -p /opt/discordmusicbot
 WORKDIR /opt/discordmusicbot
 
 # Download JMusicBot Check for the latest
-RUN wget https://github.com/jagrosh/MusicBot/releases/download/0.4.1/JMusicBot-0.4.1.jar -O JMusicBot.jar
+RUN wget https://github.com/jagrosh/MusicBot/releases/download/0.4.2/JMusicBot-0.4.2.jar -O JMusicBot.jar
 
 # Add the run script
 COPY run.sh /opt/discordmusicbot/
